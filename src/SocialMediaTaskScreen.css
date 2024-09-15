@@ -1,0 +1,64 @@
+.task-screen {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .screen-header {
+    margin-bottom: 20px;
+  }
+  
+  .progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 10px;
+    width: 100%;
+  }
+  
+  .progress {
+    background-color: #76c7c0;
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  .task-overview {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 15px;
+  }
+  
+  .task-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .task-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .task-status {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .in-progress {
+    background-color: #ff9800;
+  }
+  
+  .completed {
+    background-color: #4caf50;
+  }
+  
+  .task-details {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
